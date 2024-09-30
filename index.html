@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ka.js">
+    <title>Projeto VUE</title>
+</head>
+<body>
+    <script src="ka.js" ></script>
+    <template>
+        <div id="app">
+          <router-view></router-view>
+        </div>
+        <div>
+            <nav>
+              <router-link to="/videos">Vídeos Diversos</router-link>
+              <!-- Adicione mais links de navegação conforme necessário -->
+            </nav>
+            <router-view></router-view> <!-- Exibe o conteúdo da rota ativa -->
+          </div>
+      </template>
+      
+      
+
+
+</body>
+</html>
